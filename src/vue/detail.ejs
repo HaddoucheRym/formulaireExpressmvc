@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('./header') %>
+        <title>Detail</title>
+</head>
+
+<body>
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h3>
+                <%= user.prenom %>
+                    <%= user.nom %>
+            </h3>
+            <p class="card-text">
+                <%= user.detail %>
+            </p>
+            <button type="button" class="btn btn-danger"> <a class="detail-couleur-a" href="/<%= user.id %>/delete"> Supprimer</a></button>
+        </div>
+    </div>
+</body>
+
+</html>

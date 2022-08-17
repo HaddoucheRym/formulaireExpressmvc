@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <%- include('./header') %>
+        <title>User</title>
+</head>
+
+<body>
+    <%- include('./navbar.ejs') %>
+    <h1>Liste Users</h1>
+    <% for (let i=0; i < user.length; i++) { %>
+        <div class="card w-25">
+            <div class="card-body">
+                <h5 class="card-title">
+                    <%= user[i].prenom %>
+                        <%= user[i].nom %>
+                </h5>
+                <p class="card-text">
+                    <%= user[i].dateN %>
+                </p>
+                <button type="button" class="btn btn-primary">Editer</button>
+               
+                <button type="button" class="btn btn-secondary">
+                    <a class="nav-link" href="/detail/<%= user[i].id %>"> detail </a>
+                </button>
+                <button type="button" class="btn btn-danger"> <a class="detail-couleur-a" href="/<%= user[i].id %>/delete"> Supprimer</a></button>
+
+            </div>
+        </div>
+        <% } %>
+           
+</body>
+
+</html>

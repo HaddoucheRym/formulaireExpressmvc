@@ -1,0 +1,15 @@
+.card-text{
+    font-weight: bold;
+}
+
+.detail-couleur-a{
+    color: white;
+}
+
+.form-control{
+    width: 400px;
+}
+
+.container-fluid{
+    background-color: rgb(225, 153, 234);
+}
