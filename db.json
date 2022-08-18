@@ -4,6 +4,7 @@
       "id": 1,
       "nom": "Pitt",
       "prenom": "Brad",
+      "metier": "Acteur",
       "dateN": "18/12/1963",
       "detail": "Brad Pitt est né le 18 décembre 1963 à Shawnee, dans l'Oklahoma. Son père, William Alvin Pitt, est dirigeant d'une entreprise de transport et sa mère, Jane, est conseillère d'éducation dans un lycée4."
     },
@@ -11,13 +12,15 @@
       "id": 2,
       "nom": "Aniston",
       "prenom": "Jennifer",
-      "dateN": "11/02/1969",
+      "metier": "Acteur",
+      "dateN": "",
       "detail": "Jennifer Aniston est la fille de l'acteur grec, John Aniston (de son vrai nom Anastassakis) et de Nancy Dow (en), actrice d'origine écossaise et italienne1,2. Elle a deux demi-frères, John Melick et Alex Aniston. Son parrain est l'acteur Telly Savalas, un ami proche de son père."
     },
     {
       "id": 3,
       "nom": "Jolie",
       "prenom": "Angelina",
+      "metier": "Acteur",
       "dateN": "04/06/1975",
       "detail": "Née à Los Angeles, États-Unis, Angelina Jolie Voight est la fille des acteurs Jon Voight et Marcheline Bertrand. Elle est la nièce de Chip Taylor, la sœur de James Haven, et la filleule de Jacqueline Bisset et Maximilian Schell."
     },
@@ -25,6 +28,7 @@
       "id": 4,
       "nom": "DiCaprio",
       "prenom": "Leonardo",
+      "metier": "Acteur",
       "dateN": "11/11/1974",
       "detail": "Né le 11 novembre 1974 à Los Angeles, en Californie, Leonardo Wilhelm DiCaprio est le fils unique d'un couple de hippies rescapés des années 19604. Son père George Paul DiCaprio (né en 1943) est un dessinateur et éditeur de bandes dessinées satiriques, d'ascendance italienne (originaire d'Alife dans la province de Caserte en Campanie) et allemande (originaire de Bavière) et d'Irmelin Indenbirken (née en 1943), secrétaire juridique, d'ascendance germano-russe originaire d'Oer-Erkenschwick4 en Allemagne, dont la famille a émigré aux États-Unis dans les années 1950. Ses parents divorcent en 19755."
     },
@@ -32,6 +36,7 @@
       "id": 5,
       "nom": "Cruise",
       "prenom": "Tom",
+      "metier": "Acteur",
       "dateN": "03/07/1962",
       "detail": "Thomas Cruise Mapother IV est né à Syracuse dans l'État de New York. Il est le troisième des quatre enfants de Mary Lee Pfeiffer (1936–2017), enseignante en éducation spécialisée, et de Thomas Cruise Mapother III (1934–1984), ingénieur électricien, tous les deux originaires de Louisville dans le Kentucky2."
     }

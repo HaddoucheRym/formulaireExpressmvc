@@ -7,12 +7,16 @@
 </head>
 
 <body>
+    <%- include('./navbar.ejs') %>
     <div class="card" style="width: 18rem;">
         <div class="card-body">
             <h3>
                 <%= user.prenom %>
                     <%= user.nom %>
             </h3>
+            <p>
+                <%= user.dateN %>
+            </p>
             <p class="card-text">
                 <%= user.detail %>
             </p>

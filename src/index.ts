@@ -1,10 +1,12 @@
 import  express, { Response, Request }  from "express";
 import * as path from 'path';
-import userRouter from "./router/userRouter"
+import userRouter from "./router/userRouter";
+import bodyParser from "body-parser"
 
 const app = express();
 
 app.use(express.json());
+app.use(express.urlencoded());
 app.use(userRouter);
 
 app.set('views', path.join(process.cwd(), 'src/vue'));

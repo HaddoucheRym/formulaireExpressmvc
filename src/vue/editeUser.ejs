@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('./header') %>
+    <title>Edite</title>
+</head>
+<body>
+    <%- include('./navbar.ejs') %>
+    <div class="mb-3">
+        <form action="/edite2/<%= user.id %>" method="POST">
+  <div class="mb-3" >
+  
+    <input name="nom" type="text" class="form-control" id="exampleFormControlInput1" value="<%= user.nom %>">
+  </div>
+          <div class="mb-3">
+  
+            <input name="prenom" type="text" class="form-control" id="exampleFormControlInput1" value="<%= user.prenom %>">
+          </div>
+          <div class="mb-3">
+  
+            <input name="metier" type="text" class="form-control" id="exampleFormControlInput1" value="<%= user.metier %>">
+          </div>
+          <div class="mb-3">
+  
+            <input name="dateN" type="date" class="form-control" id="exampleFormControlInput1" value="<%= user.dateN %>">
+          </div>
+          <div class="mb-3">
+  
+            <input name="detail" type="text" class="form-control" id="exampleFormControlInput1" value="<%= user.detail %>">
+          </div>
+          <div>
+           
+              <button type="submit" class="btn btn-info"> Valider </button>
+          </div>
+        </form>
+      </div>
+
+</body>
+</html>

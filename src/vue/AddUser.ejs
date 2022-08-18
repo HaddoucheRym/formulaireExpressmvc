@@ -2,36 +2,40 @@
 <html lang="en">
 
 <head>
-    <%- include('./header') %>
-        <title>Add</title>
+  <%- include('./header') %>
+    <title>Add</title>
 </head>
 
 <body>
-    <%- include('./navbar.ejs') %>
+  <%- include('./navbar.ejs') %>
 
     <div class="mb-3">
-        
-        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="nom">
-      </div>
-    <div class="mb-3">
-        
-        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="prenom">
-      </div>
-    <div class="mb-3">
-        
-        <input type="date" class="form-control" id="exampleFormControlInput1" placeholder="date de naissance">
-      </div>
-    <div class="mb-3">
-        
-        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="detail">
-      </div>
-      
+      <form action="/add2" method="POST">
+<div class="mb-3" >
 
-       
+  <input name="nom" type="text" class="form-control" id="exampleFormControlInput1" placeholder="nom">
+</div>
+        <div class="mb-3">
 
-        <div>
-            <button type="button" class="btn btn-warning"> <a> Ajouter </a></button>
+          <input name="prenom" type="text" class="form-control" id="exampleFormControlInput1" placeholder="prenom">
         </div>
+        <div class="mb-3">
+
+          <input name="metier" type="text" class="form-control" id="exampleFormControlInput1" placeholder="metier">
+        </div>
+        <div class="mb-3">
+
+          <input name="dateN" type="date" class="form-control" id="exampleFormControlInput1" placeholder="date de naissance">
+        </div>
+        <div class="mb-3">
+
+          <input name="detail" type="text" class="form-control" id="exampleFormControlInput1" placeholder="detail">
+        </div>
+        <div>
+          <button type="submit" class="btn btn-warning"> <a> Ajouter </a></button>
+        </div>
+      </form>
+    </div>
 </body>
 
 </html>
